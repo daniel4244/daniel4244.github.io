@@ -1,0 +1,161 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.site-header{
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 180px;
+}
+
+.header__title{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.header__subtitle{
+    text-align: center;
+    color: rgb(214, 206, 195);
+    opacity: 0.4;
+    margin-bottom: 50px;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav__link{
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+    opacity: 0.7;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px; 
+}
+
+.main-section{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.main-content{
+    flex: 2;
+}
+
+.main-content__title{
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.main-content__subtitle{
+    font-size: 20px;
+}
+
+.main-content__paragraph-image{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.main-content__paragraph{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.bold-highlight{
+    font-weight: bold;
+}
+
+.underline_highlight{
+    text-decoration: underline;
+}
+
+.sidebar{
+    flex: 1;
+}
+
+.sidebar__title{
+    margin-bottom: 50px;
+}
+
+.sidebar__block{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.sidebar__block img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.sidebar__block-date{
+    color: rgb(92, 88, 88);
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+.sidebar__block-paragraph{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.sidebar__divider{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.feature-posts{
+    display: flex;
+    background-color: rgb(232, 230, 230);
+    align-items: center;
+    padding: 70px;  
+    gap: 50px;
+}
+
+.feature-posts__card{
+    flex: 1;
+}
+
+.feature-posts__card img{
+    object-fit: cover;
+}
+
+.feature-posts__card--title{
+    font-size: 30px;
+}
+
+.feature-posts__card--paragraph{
+    text-align: justify;
+    margin-bottom: 50px;
+}
