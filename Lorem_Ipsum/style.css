@@ -29,7 +29,7 @@ a{
 .header__title{
     text-align: center;
     color: antiquewhite;
-    font-size: 40px;
+    font-size: 80px;
     font-family: Helvetica, sans-serif;
     letter-spacing: 2px;
 }
@@ -38,7 +38,7 @@ a{
     text-align: center;
     color: rgb(214, 206, 195);
     opacity: 0.4;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .nav__list{
@@ -54,8 +54,8 @@ a{
     text-decoration: none;
     opacity: 0.7;
     border: 1px solid white;
-    padding: 10px 20px;
-    border-radius: 20px; 
+    padding: 15px 25px;
+    border-radius: 22px; 
 }
 
 .main-section{
@@ -75,6 +75,7 @@ a{
 
 .main-content__subtitle{
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .main-content__paragraph-image{
@@ -87,6 +88,7 @@ a{
 .main-content__paragraph{
     font-size: 18px;
     letter-spacing: 1px;
+    margin-bottom: 40px;
 }
 
 .bold-highlight{
@@ -138,7 +140,7 @@ a{
 .feature-posts{
     display: flex;
     background-color: rgb(232, 230, 230);
-    align-items: center;
+    align-items: flex-start;
     padding: 70px;  
     gap: 50px;
 }
@@ -148,14 +150,58 @@ a{
 }
 
 .feature-posts__card img{
+    width: 100%;
+    height: 200px;
     object-fit: cover;
+    margin: 15px 0; 
 }
 
 .feature-posts__card--title{
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 50px;
 }
 
 .feature-posts__card--paragraph{
     text-align: justify;
     margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.feature-posts__card a{
+    color: white;
+    background-color: rgb(217, 84, 12);
+    padding: 15px 25px;
+    border-radius: 25px;     
+}
+
+footer{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(31, 29, 29);
+}
+
+.footer__block{
+    flex: 1;
+}
+
+.footer__block--title{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.footer__block--paragraph{
+    color: white;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.footer__block--divider{
+    border: none;
+    border-top: 2px solid #ddd;
+    width: 90%;
+    opacity: 0.2;
+    margin: 15px 0;
 }
