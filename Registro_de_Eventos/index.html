@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Eventos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="cabecalho">
+    <h1>📅 Sistema de Eventos</h1>
+    <p>Registre eventos com uma interface mais limpa e organizada.</p>
+  </div>
+
+  <div class="formulario">
+    <input type="text" id="titulo" placeholder="Título">
+
+    <input type="text" id="local" placeholder="Local">
+
+    <input type="number" id="vagas" placeholder="Vagas">
+
+    <input type="number" id="preco" placeholder="Preço">
+
+    <input type="date" id="data">
+
+    <label class="checkbox-line">
+      <input type="checkbox" id="ativo">
+      Evento ativo?
+    </label>
+
+    <button id="btnCadastrar">
+      Cadastrar Evento
+    </button>
+  </div>
+
+  <div id="listaEventos"></div>
+
+  <div id="estatisticas"></div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

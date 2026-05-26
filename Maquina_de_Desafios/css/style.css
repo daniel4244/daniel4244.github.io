@@ -1,0 +1,88 @@
+:root{color-scheme: light}
+
+body{
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+    background:#f5f7fb; 
+    color:#0f172a; 
+    margin:0; 
+    padding:2rem; 
+    display:flex; 
+    justify-content:center;
+    flex-direction:column; 
+    align-items:center;
+}
+
+.container{
+    max-width:980px; 
+    width:100%;
+}
+
+fieldset{
+    background:#ffffff; 
+    border:1px solid #e6eef8; 
+    border-radius:10px; 
+    padding:1rem 1.25rem; 
+    margin-bottom:1rem; 
+    box-shadow:0 6px 18px rgba(14,30,60,0.04);
+    width:100%; 
+    max-width:980px; 
+    box-sizing:border-box;
+}
+
+legend{
+    font-weight:700; 
+    color:#0f172a; 
+    padding:0 0.4rem;
+}
+
+label{
+    display:block; 
+    margin-top:0.5rem; 
+    font-weight:600;
+}
+
+textarea, input[type="text"]{
+    width:100%; 
+    padding:0.5rem; 
+    margin-top:0.25rem; 
+    border-radius:8px; 
+    border:1px solid #dbe7f5; 
+    box-sizing:border-box; 
+    font-family:inherit;
+}
+
+button{
+    background:#0f172a;
+    color:#fff;
+    border:none;
+    padding:0.5rem 0.8rem;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:0.5rem;
+}
+
+button:hover{
+    background:#0b1220;
+}
+
+p, ul{
+    line-height:1.45;
+}
+
+.highlight{
+    background:#ffeb8a;
+    padding:0.1rem 0.25rem;
+    border-radius:3px;
+    display:inline-block;
+}
+
+#resultado03 mark{
+    background:#ffeb8a;
+    padding:0.1rem 0.25rem;
+    border-radius:3px;
+}
+
+#resultado04 strong, #resultado02 strong, #resultado01 strong {
+    display:block;
+    margin-top:0.4rem
+}

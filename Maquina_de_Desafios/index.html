@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina de Desafios</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+<fieldset>
+    <legend>Desafio 01</legend>
+    <p>Faça um programa que teste a força de uma senha</p>
+    <p>Regras</p>
+    <p>Classes de Caracteres:<br> 
+            (minúsculas, maiúsculas, números ou caracteres especiais)
+    </p>
+    <ul>
+        <li>Senha fraca: só uma classe de caracteres </li>
+        <li>Senha moderada: possui duas classe de caracteres</li>
+        <li>Senha forte: possui três classe de caracteres</li>
+        <li>Senha muito forte: possui três classe de caracteres</li>
+    </ul>
+    <label for="iptSenha">Senha</label>
+    <input type="text" id= "iptSenha" value="@DMiN!1">
+    <button id="executar01">Teste</button>
+    <p id="resultado01"></p>
+</fieldset>    
+
+<fieldset>
+    <legend>Atividade 02</legend>
+    <p> 02. Faça um programa que inverta uma palavra</p>
+    <p>Exemplo: Azul -> Luza</p>
+    <label for="palavra02">Digite uma palavra</label>
+    <textarea id="palavra02"></textarea>
+    <button id="executar02">Teste</button>
+    <p id="resultado02"></p>
+</fieldset>    
+
+<fieldset>
+    <legend>Atividade 03</legend>
+    <p>03. Faça um programa que marque no texto todas as ocorrencias de um termo digitado </p>
+    <p>Exemplo: "Amanhã será um novo amanhã, pois amanhã é o dia do amanhã"; Termo: <mark class = "highlight">Amanhã</mark>, Qtda: 4</p>
+    <label for = "texto">Digite um texto</label>
+    <textarea id = "texto"></textarea>
+    <input type = "text" id = "pesquisa" placeholder = "Digite um termo para pesquisa">
+    <button id = "executar03">Localizar</button>
+    <p id="resultado03"></p>
+</fieldset>    
+
+<fieldset>
+    <legend>Atividade 04</legend>
+    <p>04. Faça um programa que codifique uma frase usando a estratégia TENIS/POLAR, na qual as letras que apareçam em uma das palavras são intercambiadas - 
+        A letra T por P; E por O; N por L; S por R e vice-versa. As demais letras devem ser mantidas no texto codificado.
+</p>
+    <p>Exemplo: Blusa para o frio -> Bluri tisi e fsao</p>
+    <label for="frase03">Frase</label>
+    <textarea id="frase03"></textarea>
+    <button id="executar04">Criptografar</button>
+    <p id="resultado04"></p>
+</fieldset>    
+</body>
+</html>
