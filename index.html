@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel Costa — Portfólio</title>
+<meta name="description" content="Portfólio de Daniel Costa, estudante de programação no CEFET-RJ. Projetos em Java, banco de dados e desenvolvimento web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav__logo">daniel<span>4244</span></a>
+  <ul class="nav__links">
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero__content">
+    <p class="hero__tag">CEFET-RJ · Estudante de Programação</p>
+    <h1 class="hero__name">Daniel <span>Costa</span></h1>
+    <p class="hero__role">Java · Desenvolvimento Web · Banco de Dados<span class="cursor"></span></p>
+    <p class="hero__bio">Estudo programação no CEFET-RJ, com foco em Java, banco de dados e desenvolvimento web. Esse site reúne os projetos que venho construindo ao longo do curso — do back-end em Java a páginas em HTML, CSS e JS puro.</p>
+    <div class="hero__cta">
+      <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+      <a href="https://github.com/daniel4244" class="btn btn--secondary" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+  <div class="hero__photo">
+    <img src="images/foto_de_perfil.jpeg" alt="Foto de Daniel Costa">
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="projetos">
+  <div class="section__header">
+    <p class="section__label">GitHub</p>
+    <h2 class="section__title">Projetos</h2>
+  </div>
+  <div class="projects__grid">
+
+    <article class="project-card">
+      <p class="project-card__number">01</p>
+      <h3 class="project-card__title">Consultoria_James</h3>
+      <p class="project-card__desc">Homepage de um site simples em HTML5 e CSS3</p>
+      <div class="project-card__tags">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">DOM</span>
+      </div>
+      <a href="https://daniel4244.github.io/Consultoria_James/index_3.html" class="project-card__link" target="_blank" rel="noopener">Ver código</a>
+    </article>
+
+    <article class="project-card">
+      <p class="project-card__number">02</p>
+      <h3 class="project-card__title">Weatherbord</h3>
+      <p class="project-card__desc">Dashboard de clima com busca por cidade e condições atuais, consumindo a WeatherAPI via fetch.</p>
+      <div class="project-card__tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">API REST</span>
+        <span class="tag">Fetch</span>
+      </div>
+      <a href="https://daniel4244.github.io/Weatherbord/" class="project-card__link" target="_blank" rel="noopener">Ver demo</a>
+    </article>
+
+    <article class="project-card">
+      <p class="project-card__number">03</p>
+      <h3 class="project-card__title">GeoFinder</h3>
+      <p class="project-card__desc">Consulta de países com busca por nome, filtro por região e ordenação por população ou área, usando a API pública apicountries.com.</p>
+      <div class="project-card__tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">API REST</span>
+        <span class="tag">Fetch</span>
+      </div>
+      <a href="https://daniel4244.github.io/GeoFinder/" class="project-card__link" target="_blank" rel="noopener">Ver demo</a>
+    </article>
+
+    <article class="project-card">
+      <p class="project-card__number">04</p>
+      <h3 class="project-card__title">Controle Financeiro</h3>
+      <p class="project-card__desc">Cadastro de despesas com edição e exclusão em tempo real, tudo em JavaScript puro, sem backend.</p>
+      <div class="project-card__tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">DOM</span>
+        <span class="tag">CRUD</span>
+      </div>
+      <a href="https://daniel4244.github.io/Controle_Financeiro/" class="project-card__link" target="_blank" rel="noopener">Ver demo</a>
+    </article>
+
+    <article class="project-card">
+      <p class="project-card__number">05</p>
+      <h3 class="project-card__title">Sistema de Eventos</h3>
+      <p class="project-card__desc">Cadastro e listagem de eventos com validação de data e tratamento de erros em JavaScript.</p>
+      <div class="project-card__tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">Validação</span>
+        <span class="tag">DOM</span>
+      </div>
+      <a href="https://daniel4244.github.io/Registro_de_Eventos/" class="project-card__link" target="_blank" rel="noopener">Ver demo</a>
+    </article>
+
+    <article class="project-card">
+      <p class="project-card__number">06</p>
+      <h3 class="project-card__title">Máquina de Desafios</h3>
+      <p class="project-card__desc">Conjunto de desafios de lógica e manipulação de strings: força de senha, inversão de palavras, cifra de substituição e busca de termos em texto.</p>
+      <div class="project-card__tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">Lógica</span>
+        <span class="tag">Strings</span>
+      </div>
+      <a href="https://daniel4244.github.io/Maquina_de_Desafios/" class="project-card__link" target="_blank" rel="noopener">Ver demo</a>
+    </article>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="skills">
+  <div class="section__header">
+    <p class="section__label">Stack</p>
+    <h2 class="section__title">Tecnologias</h2>
+  </div>
+  <div class="skills__grid">
+    <div class="skill-item">Java</div>
+    <div class="skill-item">JavaScript</div>
+    <div class="skill-item">HTML5 &amp; CSS3</div>
+    <div class="skill-item">SQL / MySQL</div>
+    <div class="skill-item">Spring Boot</div>
+    <div class="skill-item">Git &amp; GitHub</div>
+    <div class="skill-item">Eclipse</div>
+    <div class="skill-item">Estruturas de Dados</div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="contato">
+  <div class="section__header">
+    <p class="section__label">Contato</p>
+    <h2 class="section__title">Fala aí</h2>
+  </div>
+  <div class="contact__content">
+    <p class="contact__text">Dúvida sobre algum projeto ou quer trocar uma ideia sobre código? Os links estão aí embaixo.</p>
+    <div class="contact__links">
+      <a href="https://github.com/daniel4244" class="contact__link" target="_blank" rel="noopener">
+        <span class="contact__link-label">GitHub</span>
+        <span>github.com/daniel4244</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Daniel Costa</footer>
+
+</body>
+</html>
