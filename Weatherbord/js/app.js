@@ -1,4 +1,4 @@
-const apiKey = "dbe1fabbdf854db483d192749261506";
+const apiKey = "COLOQUE A CHAVE AQUI";
 let historicoConsultas = [];
 
 const elementos = {
